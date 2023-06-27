@@ -31,7 +31,7 @@ app.get("/movies/get/:title?", (req, res) => {
     });
 });
 
-c
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
